@@ -14,7 +14,5 @@ const template = `
 
 const para = document.createElement('p');
 para.textContent = "That's all folks!";
-
-
 main.innerHTML = template;
 document.body.appendChild(para);
